@@ -1,0 +1,17 @@
+[
+    {
+        "firstName": "Lucas",
+        "lastName": "Maia",
+        "adress": "Rua dos Andradas",
+        "emailAdress": "teste@teste.com.br",
+        "radioGender": "m",
+        "checks": [
+            "Netflix",
+            "Dormir"
+        ],
+        "selectCountries": "Estados Unidos da América",
+        "selectYears": "1994",
+        "selectMonths": "Setembro",
+        "pwd": "Teste@123"
+    }
+]
