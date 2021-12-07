@@ -17,6 +17,7 @@ jobs:
 
     # Passos
     steps:
+    
     # Download do código
     - uses: actions/checkout@v2
     
@@ -28,9 +29,12 @@ jobs:
         
     # Comandos de execução
     - run: npm install
+    
     - run: npm run cy:run
-    - continue-on-error: true
+      continue-on-error: true
+      
     - run: npm run report:merge
+    
     - run: npm run report:mocha
 
 # GitHub Pages -> Publicar relatórios
